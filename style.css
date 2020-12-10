@@ -1,26 +1,28 @@
 body {
-  background-color: tan;
+  background-color: #FAD4C0;
 }
-  /* change and edit the nav bar*/
-  ul {
+/* change and edit the nav bar*/
+ul {
+  display: inline-block;
   list-style-type: none;
-  margin: 0;
-  padding: 0;
-  top: 0;
-  position: fixed;
-  width: 100%;
-  left:0;
-  background-color: gold
-    
+  background-color: #986C6A;
+  width 100%;
+  margin 0;
+  padding 0;
+  left: 0;
+  overflow: hidden
+}
+li {
+  float: left;
 }
 
-li {
+li a {
   display: block;
-  width: 60px;
-  display: inline;
-  padding: 50px 100px;
-  text-decoration: none; 
+  text-decoration: none;
+  color: white;
+  padding: 20px 130px;
+  text-align: center;
 }
 li a: hover {
-  
+  background-color: #FEE9E1;
 }
